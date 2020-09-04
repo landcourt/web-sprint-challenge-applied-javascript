@@ -22,7 +22,6 @@ function Header() {
     div1.style.fontSize = '.5rem'
     div1.style.marginTop = '19%'
     div1.style.marginLeft = '3%'
-    
 
     console.log(div1)
 
@@ -44,14 +43,12 @@ function Header() {
     header.appendChild(div3)
 
     header.style.width = '100%'
-    
     header.style.display = 'flex'
     header.style.justifyContent = 'space-between'
     header.style.height = '20vh'
     header.style.borderBottom = '3px solid lightgrey'
     header.style.fontFamily = 'Times New Roman, Times, serif'
     header.style.backgroundColor = 'white'
-    // header.style.border = '1px solid grey'
     
     return header
     
@@ -61,20 +58,11 @@ console.log(Header())
 
 const header = Header(header)
 
-
-
-
-// const header1 = Header('Sept 4 2020')
-
 let container1 = document.querySelector('.header-container')
 
 container1.style.width = '95%'
 container1.style.marginTop = '2%'
 container1.style.display = 'flex'
 
-
 container1.appendChild(header)
-container1.appendChild()
-// container1.appendChild(header1)
 
-console.log(container1)
