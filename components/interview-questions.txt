@@ -1,0 +1,19 @@
+What is the DOM?
+
+The DOM is the data representation of the objects that comprise the structure and content of a document on the web.
+
+What is an event?
+
+Events are actions or occurrences that happen in the system.
+
+What is an event listener?
+
+An event listener is a procedure or function in a computer program that waits for an event to occur.
+
+Why would we convert a NodeList into an Array?
+
+We would convert a NodeList into an Array so that we can have access to all of the array methods.
+
+What is a component?
+
+A component is a independent and reusable peice of code.
